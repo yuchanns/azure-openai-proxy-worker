@@ -33,7 +33,7 @@ export default {
 
     return fetch(proxyRequest)
   },
-};
+}
 
 async function handleOptions(_request: Request): Promise<Response> {
   return new Response(null, {
@@ -70,10 +70,10 @@ async function handleModels(_request: Request): Promise<Response> {
       "root": "gpt-3.5-turbo",
       "parent": null
     }]
-  };
-  const json = JSON.stringify(data, null, 2);
+  }
+  const json = JSON.stringify(data, null, 2)
 
   return new Response(json, {
     headers: { 'Content-Type': 'application/json' },
-  });
+  })
 }
