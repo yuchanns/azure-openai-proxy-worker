@@ -3,7 +3,7 @@ main = "src/index.ts"
 compatibility_date = "2023-04-06"
 
 [vars]
-resourceName = "yuchanns-openai"
+resourceName = "yuchanns-openai-west-us"
 apiVersion = "2024-03-01-preview"
-deployName = "gpt35"
+deployName = "gpt35-turbo"
 
